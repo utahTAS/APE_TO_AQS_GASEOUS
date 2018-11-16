@@ -1,15 +1,15 @@
-APE_to_AQS_GASEOUS
+#APE_to_AQS_GASEOUS
 
 This python code takes audit files for gaseous data and collects the audit and indicated measurements, then outputs a pipe delimited text file called 'QA_output.txt' that can be directly uploaded to AQS.
 This reduces the chances of human Typo mistakes, and improves the speed of uploading such files. This tool also has some sections for looking for mistakes in previously uploaded AQS data and fixing them.
 During testing, several mistakes were identified and corrected, and a new set of 3 audits was uploaded to AQS in under a minute.
 
 
-Getting Started
+##Getting Started
 
 To get this program working you just need to save the python file to a computer that has a python IDE and a connection to the DAQ shared U: drive.
 
-Prerequisites
+##Prerequisites
 
 I recommend anaconda/spyder as a python IDE, but choose whatever you want. This was built and works on python 3.7.
 
@@ -21,7 +21,7 @@ tkinter -comes with anaconda
 os      -comes with anaconda
 wx      -needs to be instaled, with the anaconda promt 'conda install -c anaconda wxpython', else  'pip install wxpython'
 
-Usage example
+##Usage example
 
 1. Place the audit files you want to upload in your folder of choice. ie.g. U://PLAN/AMC/BCUBRICH/AUDITS/TODAYS_DATE 
 2. Run this script
@@ -33,37 +33,32 @@ Usage example
 7. Log in to AQS, navigate to Batch, and check that the upload occured succefully
 8. As a final QC, you can query the uploaded data under AQS>Maintain>QA Assessments>Annual Performance Evaluation
 
-Installing
+##Installing
 
 1. Save the python '.py' file to your computer
 2. Run it in python IDE
 
-Release History
+##Release History
 
 0.0.1
    -First Stable Release
 
-Built With
+##Built With
 
-python
-pandas
-numpy
-tkinter
-os
-wx
+python and freinds
 
-Authors
+##Authors
 
-Bart Cubrich
+##Bart Cubrich
 
 
-Meta
+##Meta
 
 Bart Cubrich
 bcubrich@utah.gov
 
 
-License
+##License
 
 This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.
 You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. See Other Information below.
@@ -73,6 +68,6 @@ In some jurisdictions moral rights of the author may persist beyond the term of 
 Unless expressly stated otherwise, the person who identified the work makes no warranties about the work, and disclaims liability for all uses of the work, to the fullest extent permitted by applicable law.
 When using or citing the work, you should not imply endorsement by the author or the person who identified the work.
 
-Acknowledgments
+##Acknowledgments
 
 Thanks Kristy Weber for the wxpython directory search bit at the begining of this code.
