@@ -6,9 +6,11 @@ During testing, several mistakes were identified and corrected, and a new set of
 
 
 Getting Started
+
 To get this program working you just need to save the python file to a computer that has a python IDE and a connection to the DAQ shared U: drive.
 
 Prerequisites
+
 I recommend anaconda/spyder as a python IDE, but choose whatever you want. This was built and works on python 3.7.
 
 also need these modules in pyhton
@@ -20,6 +22,7 @@ os      -comes with anaconda
 wx      -needs to be instaled, with the anaconda promt 'conda install -c anaconda wxpython', else  'pip install wxpython'
 
 Usage example
+
 1. Place the audit files you want to upload in your folder of choice. ie.g. U://PLAN/AMC/BCUBRICH/AUDITS/TODAYS_DATE 
 2. Run this script
 3. Select the folder where the files are with the dialog box , so in this case U://PLAN/AMC/BCUBRICH/AUDITS/TODAYS_DATE 
@@ -31,14 +34,17 @@ Usage example
 8. As a final QC, you can query the uploaded data under AQS>Maintain>QA Assessments>Annual Performance Evaluation
 
 Installing
+
 1. Save the python '.py' file to your computer
 2. Run it in python IDE
 
 Release History
+
 0.0.1
    -First Stable Release
 
 Built With
+
 python
 pandas
 numpy
@@ -47,15 +53,18 @@ os
 wx
 
 Authors
+
 Bart Cubrich
 
 
 Meta
+
 Bart Cubrich
 bcubrich@utah.gov
 
 
 License
+
 This work has been identified as being free of known restrictions under copyright law, including all related and neighboring rights.
 You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. See Other Information below.
 The work may not be free of known copyright restrictions in all jurisdictions.
@@ -65,4 +74,5 @@ Unless expressly stated otherwise, the person who identified the work makes no w
 When using or citing the work, you should not imply endorsement by the author or the person who identified the work.
 
 Acknowledgments
+
 Thanks Kristy Weber for the wxpython directory search bit at the begining of this code.
