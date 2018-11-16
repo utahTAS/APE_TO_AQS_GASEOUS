@@ -14,11 +14,17 @@ To get this program working you just need to save the python file to a computer 
 I recommend anaconda/spyder as a python IDE, but choose whatever you want. This was built and works on python 3.7.
 
 also need these modules in pyhton
+
 python -comes with anaconda
+
 pandas -comes with anaconda
+
 numpy  -comes with anaconda
+
 tkinter -comes with anaconda
+
 os      -comes with anaconda
+
 wx      -needs to be instaled, with the anaconda promt 'conda install -c anaconda wxpython', else  'pip install wxpython'
 
 ## Usage example
