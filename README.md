@@ -48,6 +48,8 @@ wx      -needs to be instaled, with the anaconda promt 'conda install -c anacond
 
 0.0.1
    -First Stable Release
+0.0.2
+   -Fixed a small bug in reading in O3 files
 
 ## Built With
 
