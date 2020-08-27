@@ -50,6 +50,8 @@ wx      -needs to be instaled, with the anaconda promt 'conda install -c anacond
    -First Stable Release
 0.0.2
    -Fixed a small bug in reading in O3 files
+"standard_form"
+   _Uses as stardardized form to ensure consistent data extraction for all parameters.
 
 ## Built With
 
